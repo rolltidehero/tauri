@@ -1,5 +1,11 @@
 # Changelog
 
+## \[0.13.0-alpha.1]
+
+- Added `crate_name` field on `PackageInfo`.
+  - Bumped due to a bump in tauri-utils.
+  - [630a7f4b](https://www.github.com/tauri-apps/tauri/commit/630a7f4b18cef169bfd48673609306fec434e397) refactor: remove mobile log initialization, ref [#6049](https://www.github.com/tauri-apps/tauri/pull/6049) ([#6081](https://www.github.com/tauri-apps/tauri/pull/6081)) on 2023-01-17
+
 ## \[0.13.0-alpha.0]
 
 - Parse `android` and `ios` Tauri configuration files.

@@ -1,5 +1,14 @@
 # Changelog
 
+## \[2.0.0-alpha.3]
+
+- Show all application logs on iOS.
+  - [dee9460f](https://www.github.com/tauri-apps/tauri/commit/dee9460f9c9bc92e9c638e7691e616849ac2085b) feat: keep CLI alive when iOS app exits, show logs, closes [#5855](https://www.github.com/tauri-apps/tauri/pull/5855) ([#5902](https://www.github.com/tauri-apps/tauri/pull/5902)) on 2022-12-27
+- Only proxy the dev server on mobile to simplify desktop usage.
+  - [78eaadae](https://www.github.com/tauri-apps/tauri/commit/78eaadae2e75ab165d1970e592bb1455bb8636e3) refactor(core): only proxy on mobile ([#6126](https://www.github.com/tauri-apps/tauri/pull/6126)) on 2023-01-23
+- Removed mobile logging initialization, which will be handled by `tauri-plugin-log`.
+  - [630a7f4b](https://www.github.com/tauri-apps/tauri/commit/630a7f4b18cef169bfd48673609306fec434e397) refactor: remove mobile log initialization, ref [#6049](https://www.github.com/tauri-apps/tauri/pull/6049) ([#6081](https://www.github.com/tauri-apps/tauri/pull/6081)) on 2023-01-17
+
 ## \[2.0.0-alpha.2]
 
 - Fix the filesystem scope allowing sub-directories of the directory picked by the dialog when `recursive` option was `false`.

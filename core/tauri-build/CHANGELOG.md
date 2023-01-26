@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.3.0]
+
+- Add initial support for building `nsis` bundles on non-Windows platforms.
+  - [60e6f6c3](https://www.github.com/tauri-apps/tauri/commit/60e6f6c3f1605f3064b5bb177992530ff788ccf0) feat(bundler): Add support for creating NSIS bundles on unix hosts ([#5788](https://www.github.com/tauri-apps/tauri/pull/5788)) on 2023-01-19
+- Add `WindowsAttributes::app_manifest` to specify the application manifest on Windows.
+  - [bca09f7f](https://www.github.com/tauri-apps/tauri/commit/bca09f7f5ff1c9c5a4b51da043bdd5da668a179b) feat(tauri-build): add option to specify Windows manifest, closes [#5584](https://www.github.com/tauri-apps/tauri/pull/5584) ([#5730](https://www.github.com/tauri-apps/tauri/pull/5730)) on 2022-12-14
+
 ## \[1.2.1]
 
 - Fix `allowlist > app > show/hide` always disabled when `allowlist > app > all: false`.
